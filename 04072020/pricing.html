@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+
+  <title>So Fresh</title>
+
+  <link href="/css/about.css" rel="stylesheet">
+</head>
+
+<style>
+    body{
+      background-image: url(../img/bubbles.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-primary bg-primary fixed-top">
+    <a class="navbar-brand" href="#"><font color="white">So Fresh</font></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><font color="black">Home</font>
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><font color="black">About</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html"><font color="black">Catalog</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html"><font color="black">Cart</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkOut.html"><font color="black">Check Out</font></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+              <circle cx="12" cy="13" r="4" />
+            </svg>
+            <strong>Album</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1><font color="black">I have different kind of scented soaps, lotions and a gel cleanser. </font></h1>     
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+
+                 <img src="babyPowder.jpg">
+                <!--{% include icons/placeholder.svg width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail"
+                %}-->
+                <div class="card-body">
+                  <p class="card-text">Baby Powder scented soap.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $6.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $7.99</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+  
+                  <img src="coffeeBean.jpg">
+
+                <div class="card-body">
+                  <p class="card-text">Coffee Bean scented soap with grated coffee beans inside.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $6.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $7.99</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+               
+                  <img src="faceAndBodyLotion.jpg">
+
+                <div class="card-body">
+                  <p class="card-text">Peach scented face and body lotion.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $6.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $7.99</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                
+                <img src="honeyGelCleanser.jpg">
+
+                <div class="card-body">
+                  <p class="card-text">Honey scented gel cleanser.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $5.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $6.99</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+               
+                  <img src="lemon.jpg">
+
+                <div class="card-body">
+                  <p class="card-text">Lemon scented soap.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $6.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $7.99</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  
+                <img src="roseBasil.jpg">
+
+                <div class="card-body">
+                  <p class="card-text">Rose and basil scented soap with rose pedels inside. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $6.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $7.99</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                
+                <img src="vanillaRosePedels.jpg">
+
+                <div class="card-body">
+                  <p class="card-text">Vanilla scented soap with a hint of a rose frangance. Also has a rose inside.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-success">S $6.99</button>
+                      <button type="button" class="btn btn-sm btn-outline-success">L $7.99</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+   
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/brand/bootstrap-solid.svg" alt="" width="24"
+              height="24">
+            <small class="d-block mb-3 text-muted"><font color="white">&copy; 2020-{{ 7:00 | date: april 12,2020  }}</font></small>
+          </div>
+          <div class="col-6 col-md">
+            <h5><font color="purple">Features</font></h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="#"><font color="white">Cool stuff</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Random feature</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Team feature</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Stuff for developers</font></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5><font color="purple">Resources</font></h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="#"><font color="white">Resource</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Resource name</font></a>
+              </li>
+              <li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5><font color="purple">About</font></h5>
+            <ul class="list-unstyled text-small">
+              <li>
+                <a class="text-muted" href="#"><font color="white">Team</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Locations</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Privacy</font></a>
+              </li>
+              <li>
+                <a class="text-muted" href="#"><font color="white">Terms</font></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+  </body>
+
+</html>
+
+
+
+

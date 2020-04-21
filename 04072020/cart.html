@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+
+  <title>So Fresh</title>
+
+  <link href="/css/form-validation.css" rel="stylesheet">
+
+</head>
+
+<style>
+    body{
+      background-image: url(../img/bubbles.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-primary bg-primary fixed-top">
+    <a class="navbar-brand" href="#"><font color="white">So Fresh</font></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><font color="black">Home</font>
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><font color="black">About</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html"><font color="black">Catalog</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html"><font color="black">Cart</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkOut.html"><font color="black">Check Out</font></a>
+        </li>
+      </ul>
+
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<p>....................</p>
+<p>....................</p>
+
+  <h1><font color="purple">Shopping Cart</font></h1>
+
+  <div class="row">
+    <div class="col-md-4 order-md-2 mb-4">
+      <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span class="text-muted"><font color="white">Your cart</font></span>
+        <span class="badge badge-success badge-pill">3</span>
+      </h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Gel Cleanser</h6>
+            <small class="text-muted">Honey scented gel</small>
+          </div>
+          <span class="text-muted">$5.99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Face and Body lotion</h6>
+            <small class="text-muted">Peach scented</small>
+          </div>
+          <span class="text-muted">$6.99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-condensed">
+          <div>
+            <h6 class="my-0">Vanilla soap</h6>
+            <small class="text-muted">Hint of a rose frangance with a rose inside.</small>
+          </div>
+          <span class="text-muted">$7.99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-light">
+          <div class="text-success">
+            <h6 class="my-0">Promo code</h6>
+            <small>RELAX5</small>
+          </div>
+          <span class="text-success">-$5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Total (USD)</span>
+          <strong>$15.97</strong>
+        </li>
+      </ul>
+
+      <form class="card p-2">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Promo code">
+          <div class="input-group-append">
+            <button type="submit" class="btn btn-success">Redeem</button>
+          </div>
+        </div>
+
+        <hr class="mb-4">
+        <button class="btn btn-success btn-lg btn-block" type="submit">Continue to checkout</button>
+      </form>
+
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+          <div class="row">
+            <div class="col-12 col-md">
+              <img class="mb-2" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/brand/bootstrap-solid.svg" alt="" width="24"
+                height="24">
+              <small class="d-block mb-3 text-muted"><font color="white">&copy; 2020-{{ 7:00 | date: april 12,2020  }}</font></small>
+            </div>
+            <div class="col-6 col-md">
+              <h5><font color="purple">Features</font></h5>
+              <ul class="list-unstyled text-small">
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Cool stuff</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Random feature</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Team feature</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Stuff for developers</font></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5><font color="purple">Resources</font></h5>
+              <ul class="list-unstyled text-small">
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Resource</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Resource name</font></a>
+                </li>
+                <li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5><font color="purple">About</font></h5>
+              <ul class="list-unstyled text-small">
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Team</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Locations</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Privacy</font></a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#"><font color="white">Terms</font></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  font-family: arial;
+  margin: 0;
+}
+.header{
+  padding: 60px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+.content{
+  padding: 20px;
+}
+
+
+*{
+box-sizing: border-box;
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+.row:after{
+  contain: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+
+  <title>So Fresh</title>
+
+  <link href="/css/stater-template.css" rel="stylesheet">
+</head>
+
+<style>
+body{
+  background-image: url(../img/bubbles.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+background-color: skyblue;
+}
+
+</style>
+
+<body>
+
+<div class="header">
+  <p>.......</p>
+  <h1>On The Go Groceries </h1>
+  <p>Get local groceries delivered to your house</p>
+</div>
+
+
+  <nav class="navbar navbar-expand-md navbar-primary bg-primary fixed-top">
+    <a class="navbar-brand" href="#"><font color="white">So Fresh</font></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><font color="black">Home</font>
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><font color="black">About</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html"><font color="black">Catalog</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html"><font color="black">Cart</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkOut.html"><font color="black">Check Out</font></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main role="main" class="container">
+
+    <div class="starter-template">
+
+      <div style="background: url('img_bubbles.jpg');">
+      <!--<p>......................................</p>
+      <p>......................................</p>-->
+      
+      <h1><font color="purple">So Fresh</font></h1>
+      <p><font color="white">Great scents for great prices!</font></p>
+      <p><font color="white">If you want a relaxing day at home,</font></p>
+      <p><font color="white">then pick the right scent to feel tranquil.</font></p>
+    </div>
+
+  </main>
+  <!-- /.container-->
+
+<img scr= "unsplash.com/photos/h1aCePSo5w8" alt="baby powder soap">
+<img scr= "unsplash.com/photos/C84OOkvntZI" alt="Vanilla soap">
+<img scr= "unsplash.com/photos/TVxl-vkmTLI" alt="coffee bean soap">
+<img scr= "unsplash.com/photos/FMdScBKYVs8" alt="lemon soap">
+
+
+  
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/brand/bootstrap-solid.svg" alt="" width="24"
+            height="24">
+          <small class="d-block mb-3 text-muted"><font color="white">&copy; 2020-{{ 7:00 | date: april 12,2020  }}</font></small>
+        </div>
+        <div class="col-6 col-md">
+          <h5><font color="purple">Features</font></h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-muted" href="#"><font color="white">Cool stuff</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Random feature</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Team feature</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Stuff for developers</font></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5><font color="purple">Resources</font></h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-muted" href="#"><font color="white">Resource</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Resource name</font></a>
+            </li>
+            <li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5><font color="purple">About</font></h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-muted" href="#"><font color="white">Team</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Locations</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Privacy</font></a>
+            </li>
+            <li>
+              <a class="text-muted" href="#"><font color="white">Terms</font></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</div>
+</body>
+
+</html>
